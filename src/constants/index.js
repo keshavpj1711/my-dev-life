@@ -110,41 +110,68 @@ const techStackIcons = [
 
 const journeyCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+    title: "Python Developer",
+    date: "January 2021 - Present",
+    story: "My very first real project — a school management system built in Class 12 using Python and MySQL. I didn’t know much at the time, so Stack Overflow and YouTube were my best friends. But that’s what made it stick — it was a challenge I kept chipping away at. That project showed me what it feels like to build something that actually works.",
+    journey: [
+      "Built utility tools like an emoji picker, snake games, bots, scrapers etc.",
+      "Discovered APIs and web concepts via Python (requests, FAST API etc).",
+      "Explored data workflows with Pandas/Numpy, and later AI/LLMs.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+    title: "JEE Aspirant",
+    date: "January 2021 - August 2022",
+    story: "This phase was a break from everything I loved about computers at that point. I paused all coding to focus on cracking the JEE — one of the most intense exams in India. It was more about learning how to stay consistent and adapt under pressure than about academics alone. But in the end, I made it into IIT Kharagpur (Electrical Engineering), and I don’t regret a thing.",
+    journey: [
+      "Learned discipline, focus, and how to push through mental fatigue.",
+      "Faced the common challenge of sacrificing passion to chase a bigger goal.",
+      "Secured admission into IIT KGP (Electrical) in my second attempt.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+    title: "Advisor, KOSS (Kharagpur Open Source Society)",
+    date: "June 2023 - Present",
+    story: "The first real turning point in college. While everyone was rushing to join cultural clubs, I had one goal — get into KOSS. I was selected, and it changed everything. I met some of the best devs on campus and finally discovered Linux. That single thing opened up a whole world of customization, scripting, and control.",
+    journey: [
+      "Joined KOSS, a core open-source community at IIT Kharagpur.",
+      "Discovered Arch Linux and started customizing my dev workflow.",
+      "Organized KWoC (a student-led version of GSoC).",
+      "Built scripts, learned about bash, database systems, servers.",
+
     ],
   },
+  {
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logo4.png",
+    title: "Full Stack Developer",
+    date: "June 2024 - Present",
+    story: "I knew the basics of HTML/CSS early on, but didn’t think much of them—until I needed to give a UI to the backend projects I was building. That moment pulled me into the world of web development. Learning React changed everything, and before long, I was building full stack apps I actually enjoyed using.",
+    journey: [
+      "Built my first single-page app during a society interview task.",
+      "Used React, Express, and Postgres to build tools like a markdown note-taking app.",
+      "Started thinking about design, user flow, and how frontend and backend fit together.",
+    ],
+  },
+  {
+    imgPath: "/images/exp5.png",
+    logoPath: "/images/logo5.png",
+    title: "Noob at DevOps",
+    date: "May 2025 - Present",
+    story: "After a networking course sparked my interest in how systems run behind the scenes, I explored AWS and discovered Infrastructure as Code. From there, Docker, scalability, and architecture principles followed naturally. DevOps made me see code as something that lives, runs, and evolves—not just compiles.",
+    journey: [
+      "Built my first IaC setup using Pulumi to automate an EC2 web server.",
+      "Dockerized projects for fast deployment and consistent environments.",
+      "Started mapping out architecture diagrams and scalability principles for future apps.",
+    ],
+  }
+
 ];
 
 // const expLogos = [
