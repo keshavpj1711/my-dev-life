@@ -25,8 +25,8 @@ const TechStack = () => {
                   {stack.technologies.map((logoPath, i) => (
                     <img
                       key={i} src={logoPath} alt=""
-                      className="aspect-square object-contain bg-white p-1 rounded-2xl
-                        w-12 sm:w-14 xl:w-16"
+                      className="aspect-square object-contain bg-white p-1 
+                      rounded-2xl w-12 sm:w-14 xl:w-16"
                     />
                   ))}
                 </div>
