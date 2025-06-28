@@ -54,57 +54,59 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Frontend Developer",
+    technologies: [
+      "/images/logos/react.png",
+      "/images/logos/three.png",
+      "/images/logos/tailwind.png",
+      "/images/logos/javascript.png",
+      "/images/logos/vite.png",
+      "/images/logos/figma.png"
+    ]
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    technologies: [
+      "/images/logos/python.png",
+      "/images/logos/redis.png",
+      "/images/logos/qt.png",
+      "/images/logos/selenium.png",
+      "/images/logos/pandas.png",
+      "/images/logos/numpy.png"
+    ]
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    technologies: [
+      "/images/logos/node.png",
+      "/images/logos/npm.png",
+      "/images/logos/express.png",
+      "/images/logos/ejs.png",
+      "/images/logos/fastapi.png",
+      "/images/logos/flask.png",
+    ]
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "DevOps & Database",
+    technologies: [
+      "/images/logos/aws.png",
+      "/images/logos/docker.png",
+      "/images/logos/pulumi.png",
+      "/images/logos/vim.png",
+      "/images/logos/sqlite.png",
+      "/images/logos/postgresSQL.png",
+    ]
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
-
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: "Micellaneous",
+    technologies: [
+      "/images/logos/git.png",
+      "/images/logos/github.png",
+      "/images/logos/go.png",
+      "/images/logos/bash.png",
+      "/images/logos/arch.png",
+      "/images/logos/postman.png",
+    ]
   },
 ];
 
@@ -214,7 +216,6 @@ export {
   counterItems,
   journeyCards,
   socialImgs,
-  techStackIcons,
   techStackImgs,
   navLinks,
 };
