@@ -233,7 +233,7 @@ const projects = [
     bgColor: "#ffe7eb",
   },
   {
-    imgPath: "/images/project2copy.png",
+    imgPath: "/images/project2.png",
     title: "Web Server Automation (IaC)",
     description: "Automated AWS infrastructure deployment using Pulumi — custom VPC, subnets, routing, EC2 provisioning, and SSH key management in modular Python.",
     techBadges: ["Pulumi", "Python", "AWS"],
