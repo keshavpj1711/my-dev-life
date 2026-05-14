@@ -16,7 +16,7 @@ const HeroExperience = () => {
   })
 
   return (
-    <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
+    <Canvas frameloop="demand" camera={{ position: [0, 0, 15], fov: 45 }}>
       {/* Orbit controls allow us to view the mesh in 3d by moving around */}
       <OrbitControls
         enablePan={false}
