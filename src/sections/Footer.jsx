@@ -9,7 +9,7 @@ const footerSocials = [
   {
     name: "GitHub",
     url: "https://github.com/keshavpj1711",
-    imgPath: "/images/logos/github.png",
+    imgPath: "/images/logos/github_white.png",
   },
 ];
 
@@ -30,7 +30,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="icon"
             >
-              <img src={social.imgPath} alt={social.name} className="size-5 object-contain" />
+              <img src={social.imgPath} alt={social.name} className="size-6 object-contain rounded-sm" />
             </a>
           ))}
         </div>
