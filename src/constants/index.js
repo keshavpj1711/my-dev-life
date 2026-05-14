@@ -25,8 +25,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Years of Experience" },
-  { value: 20, suffix: "+", label: "Completed Projects" },
+  { value: 2.5, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Projects Built" },
+  { value: 1000, suffix: "+", label: "GitHub Contributions" },
+  { value: 4, suffix: "+", label: "Production Systems Shipped" },
 ];
 
 const abilities = [
@@ -61,7 +63,7 @@ const techStackImgs = [
       "/images/logos/tailwind.png",
       "/images/logos/javascript.png",
       "/images/logos/vite.png",
-      "/images/logos/figma.png"
+      "/images/logos/typescript.svg",
     ]
   },
   {
@@ -79,9 +81,9 @@ const techStackImgs = [
     name: "Backend Developer",
     technologies: [
       "/images/logos/node.png",
-      "/images/logos/npm.png",
+      "/images/logos/nestjs.svg",
       "/images/logos/express.png",
-      "/images/logos/ejs.png",
+      "/images/logos/drizzle.svg",
       "/images/logos/fastapi.png",
       "/images/logos/flask.png",
     ]
@@ -92,13 +94,13 @@ const techStackImgs = [
       "/images/logos/aws.png",
       "/images/logos/docker.png",
       "/images/logos/pulumi.png",
-      "/images/logos/vim.png",
-      "/images/logos/sqlite.png",
+      "/images/logos/celery.png",
+      "/images/logos/bullmq.png",
       "/images/logos/postgresSQL.png",
     ]
   },
   {
-    name: "Micellaneous",
+    name: "Miscellaneous",
     technologies: [
       "/images/logos/git.png",
       "/images/logos/github.png",
@@ -146,7 +148,6 @@ const journeyCards = [
       "Discovered Arch Linux and started customizing my dev workflow.",
       "Organized KWoC (a student-led version of GSoC).",
       "Built scripts, learned about bash, database systems, servers.",
-
     ],
   },
   {
@@ -172,8 +173,31 @@ const journeyCards = [
       "Dockerized projects for fast deployment and consistent environments.",
       "Started mapping out architecture diagrams and scalability principles for future apps.",
     ],
-  }
-
+  },
+  {
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logos/zocaai_logo.jpg",
+    title: "SWE Intern @ Zoca AI — Social Media Platform",
+    date: "December 2025 - January 2026",
+    story: "My first real industry internship. Thrown into a live production system serving 1,000+ clients — I had to ship fast without breaking things. It reshaped how I think about reliability, atomicity, and owning a feature end to end.",
+    journey: [
+      "Learned what production-grade really means — atomic transactions, real conflict detection, zero-downtime changes.",
+      "Shipped an AWS Lambda + FFmpeg media pipeline that eliminated reel upload failures overnight.",
+      "Went from reading the codebase to owning features solo within the first week.",
+    ],
+  },
+  {
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logos/zocaai_logo.jpg",
+    title: "SWE Intern @ Zoca AI — AEO Analytics Platform",
+    date: "February 2026 - April 2026",
+    story: "Greenfield ownership — built an entirely new analytics platform from scratch for 500+ clients. Balancing LLM costs, attribution correctness, and concurrency at scale was a new kind of problem that pushed me beyond anything I’d done in side projects.",
+    journey: [
+      "Designed the full backend architecture from scratch — no existing code to lean on.",
+      "Learned to think about cost as a first-class constraint alongside correctness and performance.",
+      "Integrated LLMs into a real product pipeline and shipped it to production.",
+    ],
+  },
 ];
 
 // const expLogos = [
@@ -190,6 +214,33 @@ const journeyCards = [
 //     imgPath: "/images/logo3.png",
 //   },
 // ];
+
+const projects = [
+  {
+    imgPath: "/images/project1.png",
+    title: "Production-Ready Search Engine API",
+    description: "Engineered a Search Engine that indexes over 20,000+ documents, delivering sub-100ms search responses through TF-IDF caching and async Celery workers.",
+    techBadges: ["Python", "FastAPI", "Redis", "Docker", "Celery"],
+    githubUrl: "https://github.com/keshavpj1711/searchEng2.0",
+    bgColor: null,
+  },
+  {
+    imgPath: "/images/project3.png",
+    title: "GlyphGrab — Emoji Picker",
+    description: "Lightweight, cross-platform emoji picker built for quick keyboard-driven emoji access, without ever leaving the keyboard.",
+    techBadges: ["Python", "Qt"],
+    githubUrl: "https://github.com/keshavpj1711/GlyphGrab",
+    bgColor: "#ffe7eb",
+  },
+  {
+    imgPath: "/images/project2copy.png",
+    title: "Web Server Automation (IaC)",
+    description: "Automated AWS infrastructure deployment using Pulumi — custom VPC, subnets, routing, EC2 provisioning, and SSH key management in modular Python.",
+    techBadges: ["Pulumi", "Python", "AWS"],
+    githubUrl: "https://github.com/keshavpj1711/iac-webserver-automation",
+    bgColor: "#027ecd",
+  },
+];
 
 const socialImgs = [
   {
@@ -215,6 +266,7 @@ export {
   abilities,
   counterItems,
   journeyCards,
+  projects,
   socialImgs,
   techStackImgs,
   navLinks,
